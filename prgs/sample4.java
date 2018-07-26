@@ -18,5 +18,9 @@ if(num<0)
 {
 	System.out.println("negative");
 }
+		if(num=0)
+		{
+			System.out.println("zero");
+}
 }
 }
