@@ -13,9 +13,9 @@ class Ideone1
     {
     System.out.println("a is even");
     }
-    else if(a%3==0)
-    {
+    else 
+    
     System.out.println("a is odd");
-}
+
 }
 }
