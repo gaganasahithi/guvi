@@ -28,7 +28,7 @@ class sample9
 		if(isLeap==true)
 		System.out.println("yes");
 		else
-		System.out.println("No");
+		System.out.println("no");
 		}
 		}
 		// your code goes here
