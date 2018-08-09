@@ -9,7 +9,7 @@ class primeintervals
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		 int low = 20, high = 50;
+		 int low = 1, high = 10;
 
         while (low < high)
         {
