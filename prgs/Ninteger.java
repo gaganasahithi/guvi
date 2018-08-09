@@ -7,38 +7,30 @@ import java.io.*;
 /* Name of the class has to be "Main" only if the class is public. */
 class Ninteger
 {
+	
+	
+		public static int swap(int itself,int dummy)
+	{
+		return itself;
+	}
+	
+	static void sortit(int arr[],int n)
+	{
+		for(int i=0;i<n;i++)
+		{
+			while(i!=(arr[i]-1))
+			arr[i]=swap(arr[arr[i]-1],
+			arr[arr[i]-1]=arr[i]);
+		}
+	}
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		Scanner sc=new Scanner(System.in);
-		int a[]=new int[10];
-		int n,i=0,j;
-		n=sc.nextInt();
-		System.out.println("Input:"+n);
-		System.out.println(" "+n);
-		for( i=0;i<n;i++)
-		{
-			a[i]=sc.nextInt();
-		//	System.out.println();
-			System.out.println(a[i]+"");
-		}
-		int temp=a[0];
-		for(i=0;i<n;i++)
-		{
-			for(j=i+1;j<n;j++)
-			{
-				if(a[i]>a[j])
-				{
-					temp=a[i];
-					a[i]=a[j];
-					a[j]=temp;
-				}
-			}
-		}
-		for(i=0;i<n;i++)
-		{
-			//System.out.println();
-            		System.out.println("  "+a[i]);
-		}
+	    int arr[]={2,1,3};
+	   int n=arr.length;
+	   sortit(arr,n);
+	  
+	   for(int i=0;i<n;i++)
+	   System.out.print(arr[i] +" ");
 	}
 }
 
