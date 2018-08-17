@@ -23,4 +23,4 @@ class resultodd
 			System.out.print("odd");
 		}
 	}
-	
+}
