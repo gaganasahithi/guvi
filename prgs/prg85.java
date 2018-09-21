@@ -12,7 +12,6 @@ class prg85
 		int i,l;
 String str;
 String str1="",str2="";
-
 Scanner ja=new Scanner(System.in);
 str=ja.next();
 String s[]=str.split("");
@@ -25,4 +24,4 @@ else
 }
 System.out.println(str2+" "+str1);
 	}
-}
+}	
